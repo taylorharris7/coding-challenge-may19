@@ -19,6 +19,7 @@ function countEssential() {
 }
 
 function loadModule(index) {
+  availableModules[index].enabled = true;
   ship.modules.push(availableModules[index]);
 }
 
